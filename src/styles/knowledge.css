@@ -1,0 +1,14 @@
+.recuadro1{
+    border-radius: 5px;
+    text-align: center;
+}
+
+li{
+    text-align: center;
+    list-style:none;
+}
+
+ul{
+    padding: 0px;
+}
+

@@ -1,0 +1,67 @@
+:root{
+    --colorFondo: whitesmoke;
+    --colorRecuadro: rgba(14, 11, 11, 0.568);
+    --colorFuente: black;
+    
+}
+
+.colorFondo{
+    background-color: var(--colorFondo);
+}
+
+.navbar1{
+    display: flex;
+    margin-top: 3px;
+  
+}
+
+.navbar2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar2 div{
+    display: flex;
+    text-align: center;
+}
+
+.styleButton:link{
+    display: flex;
+    width: 150px;
+    text-decoration: none;
+    border-radius: 1em;
+    font-size: 120%;
+    transition: color 0.4s, background 0.4s;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.styleButton:hover{
+    background-color: var(--colorRecuadro);
+}
+
+.styleButton:visited{
+    color: var(--colorFuente);
+}
+
+.selfie {
+    display: block;
+    border-radius: 50%;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.recuadro {
+    background-color: var(--colorRecuadro);
+    border-radius: 5px;
+    padding: 2% 0;
+    text-align: center;
+}
+
+.separacion{
+    margin: 10px 0px;
+}
+
+
+

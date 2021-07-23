@@ -1,0 +1,22 @@
+img{
+    margin: 0px 20px;
+    
+}
+.aaa{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+.linkedin{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+}
+
+.face{
+    position: relative;
+    bottom: 1px;
+    left: 0px;
+}
