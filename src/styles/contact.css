@@ -1,7 +1,16 @@
-img{
-    margin: 0px 20px;
-    
+.cajaFavicon{
+    display: flex;
+    justify-content: center;
 }
+
+.caja{
+    display: flex;
+    box-sizing: border-box;
+    width: 50px;
+    height: 49px;
+    justify-content: center;
+}
+
 .aaa{
     display: flex;
     text-align: center;
@@ -9,14 +18,51 @@ img{
     justify-self: center;
 }
 
-.linkedin{
-    position: relative;
-    bottom: 0px;
-    left: 0px;
-}
-
 .face{
     position: relative;
     bottom: 1px;
     left: 0px;
+    width: 47px; 
+    height: 46px;
+    transition: width 0.1s, height 0.1s;
+}
+
+.linkedin{
+    position: relative;
+    bottom: -3px;
+    left: 0px;
+    width: 39px; 
+    height: 39px;
+    transition: width 0.1s, height 0.1s;
+}
+
+.github{
+    height: 45px;
+    transition: width 0.1s, height 0.1s;
+} 
+
+.face:hover{
+    box-sizing: border-box;
+    width:50px;
+    height:49px 
+}
+
+.linkedin:hover{
+    box-sizing: border-box;
+    width:42px;
+    height:42px 
+}
+
+.github:hover{
+    box-sizing: border-box;
+    width:42px;
+    height:48px 
+}
+
+.links{
+    color: rgba(0, 0, 121, 0.89);
+}
+
+.links:link{
+    text-decoration: none;
 }

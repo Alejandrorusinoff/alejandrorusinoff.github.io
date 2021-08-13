@@ -1,7 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+
 #container{
     margin: 0px auto;
     width: 95%;
     color: black;
 }
+
+body{
+    background-color: whitesmoke;
+}
+
 
 

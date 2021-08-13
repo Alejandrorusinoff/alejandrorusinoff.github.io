@@ -2,7 +2,6 @@
     --colorFondo: whitesmoke;
     --colorRecuadro: rgba(14, 11, 11, 0.568);
     --colorFuente: black;
-    
 }
 
 .colorFondo{
@@ -12,7 +11,9 @@
 .navbar1{
     display: flex;
     margin-top: 3px;
-  
+    /* border: 2px solid red; */
+    align-items: center;
+    align-self: center;
 }
 
 .navbar2{
@@ -23,6 +24,10 @@
 .navbar2 div{
     display: flex;
     text-align: center;
+}
+
+.styleButton{
+    color: black;
 }
 
 .styleButton:link{
@@ -52,16 +57,60 @@
     margin: 0 auto;
 }
 
+#separacion{
+    margin: 10px 0px;
+    margin-top: 31px;
+}
+
+.separacion1{
+   /*  border: 2px solid red; */
+    justify-content: center;
+}
+
 .recuadro {
     background-color: var(--colorRecuadro);
     border-radius: 5px;
     padding: 2% 0;
     text-align: center;
+    /* border: 3px solid black; */
 }
 
-.separacion{
-    margin: 10px 0px;
+.float{
+    position: fixed;
+    /* border: 2px solid blue; */
+    top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--colorFondo);
+    z-index: 2;
+    width: 100%;
+    right: 2.8%;
 }
+
+@media(max-width: 1000px){
+    .float{
+        display: flex;
+        flex-direction: column;
+    }
+    #separacion{
+        /* margin: 10px 0px; */
+        margin-top: 70px;
+    }
+}
+
+@media(max-width: 600px){
+    .navbar2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #separacion{
+        /* margin: 10px 0px; */
+        margin-top: 100px;
+    }
+}
+
 
 
 
